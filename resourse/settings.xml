@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><setting>
+	<variables name="koef">
+		<variable name="konsultation_d_str">d</variable>
+		<variable name="konsultation_d">0.04</variable>
+		<variable name="konsultation_v_str">v</variable>
+		<variable name="konsultation_v">0.06</variable>
+		<variable name="konsultation_z_str">z</variable>
+		<variable name="konsultation_z">0.08</variable>
+		
+		<variable name="kontrol">0.15</variable>
+		<variable name="coursovy_job">2</variable>
+		<variable name="coursovy_project">3</variable>
+		
+		<variable name="dyplom_d_4_hours">9.25</variable>
+		<variable name="dyplom_v_4_hours">19.5</variable>
+		<variable name="dyplom_d_5_spec_hours_job">20.5</variable>
+		<variable name="dyplom_d_5_spec_hours_proect">19</variable>
+		<variable name="dyplom_d_5_mag_hours_me">21.1</variable>
+		<variable name="dyplom_d_5_mag_hours_mv">29.5</variable>
+		
+		<variable name="practice_1_hoursOthersGroups">2</variable>
+		<variable name="practice_3_hoursForGroups">120</variable>
+		<variable name="practice_4_hoursForGroups">2</variable>
+		<variable name="practice_5_hoursForGroupsSpecialist">4</variable>
+		<variable name="practice_5_hoursForGroupsMVMagistr">4</variable>
+		<variable name="practice_5_hoursForGroupsMEMagistr">2</variable>
+		
+	</variables>
+	
+	<variables name="count">
+		<variable name="hours_on_kredit">36</variable>
+		<variable name="hours_auditor_on_kredit">16</variable>
+		<variable name="count_users_for_streem">50</variable>
+		<variable name="count_users_for_labs">18</variable>
+	</variables>
+	
+	<variables name="default_user">
+		<variable name="user_login">varel</variable>
+		<variable name="user_password">62758970</variable>
+		<variable name="user_level">5</variable>
+    </variables>
+</setting>

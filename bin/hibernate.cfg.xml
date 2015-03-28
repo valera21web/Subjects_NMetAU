@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- connection parameters -->
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost/kafedra?autoReconnect=true&amp;useUnicode=true&amp;createDatabaseIfNotExist=true&amp;characterEncoding=utf-8</property>
+		<property name="hibernate.connection.username">varela21web</property>
+		<property name="hibernate.connection.password">QweTrlf</property>
+		<!-- internal pool configuration -->
+		<property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
+		<property name="hibernate.connection.pool_size">1</property>
+		<!-- Hibernate SQL dialect -->
+		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+		<!-- Other important properties -->
+		<property name="show_sql">true</property>
+		<property name="hbm2ddl.auto">create-drop</property>
+		<!-- Mapping files -->
+		<mapping class="module.Users" />
+		<mapping class="module.Subject" />
+		<mapping class="module.Course" />
+		<mapping class="module.CourseInfo" />
+		<mapping class="module.Teacher" />
+		<mapping class="module.Practice" />
+		<mapping class="module.Dyplom" />
+	</session-factory>
+</hibernate-configuration>

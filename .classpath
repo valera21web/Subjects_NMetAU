@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin" path="src"/>
+	<classpathentry kind="src" output="bin" path="resourse"/>
+	<classpathentry kind="var" path="JRE_LIB" rootpath="JRE_SRCROOT" sourcepath="JRE_SRC"/>
+	<classpathentry kind="con" path="E:/SVN/Git/practice/bin"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/hibernate-entitymanager-4.1.10.Final.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/mysql-connector-java-5.1.24-bin.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/classmate-0.5.4.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/hibernate-core-4.0.0.CR1.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/jandex-1.0.0.Beta7.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/hibernate/lib/required/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/lib/hibernate/lib/required/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="E:/SVN/Git/practice/resourse/hibernate.cfg.xml"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
